@@ -4,5 +4,6 @@ def factorial(number):
         summ *= num
     print(summ)
 
+print('Hello')
 number = int(input('Введите номер: '))
 result = factorial(number)
