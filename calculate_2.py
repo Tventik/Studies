@@ -16,7 +16,14 @@ if action == '+':
 		result += number
 		number = str(number)
 		string += ' ' + action + ' ' + number
-print(string, '=', result)
 
+elif action == '-':
+	for num in range(2, numerals + 1):
+		print('Введите операнд № ',num, ': ', sep= '', end= '')
+		number = int(input())
+		result -= number
+		number = str(number)
+		string += ' ' + action + ' ' + number
+print(string, '=', result)
 
 
