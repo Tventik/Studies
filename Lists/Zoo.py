@@ -17,7 +17,7 @@
 # # Обезьяна сидит в клетке номер 4
 
 animals = ['lion', 'kangaroo', 'elephant', 'monkey']
-# print('Зоопарк: ', animals)
+print('Зоопарк: ', animals)
 animals.insert(1, 'bear')
 print('Привезли медведя. Теперь животных в клетке:', len(animals))
 animals.remove('elephant')
